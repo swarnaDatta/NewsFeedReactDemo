@@ -1,0 +1,67 @@
+*{
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:	#f7f7f7;
+}
+#posts{
+  display: block;
+  font: bold;
+  margin:10px;
+  width: 86%;
+  height:80px;
+}
+#postSpan{
+  width:70%;
+  height:80px;
+  margin:10px;
+  text-align: left;
+  padding:10px;
+  border:2px solid silver;
+  border-radius:10px;
+}
+.PostContainer{
+  display: block;
+  margin:10px;
+  margin-top: 40px;
+  padding:10px;
+  width:60%;
+  max-height: 350px;
+  overflow: hidden;
+  border:1px solid silver;
+  border-radius: 10px;
+}
+.username{
+  text-align: left;
+}
+.description{
+  text-align: justify;
+}
+.Picture {
+  background-image: url(./fbpost.png);
+  width:110%;
+  height:150px;
+}
+.ReactionContainer{
+  width: 61%;
+  height:70px;
+  /*background-color: grey;*/
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+.reacting{
+  margin:10px;
+  float: left;
+  margin-right: 20px;
+  padding:10px;
+  border-style: none;
+  background-color: white;
+}
+.reacting:hover{
+  background:silver;
+  border-radius: 10px;
+}
